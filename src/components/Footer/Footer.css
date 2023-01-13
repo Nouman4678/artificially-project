@@ -5,23 +5,18 @@
     margin-right: 10vw;
     margin-top: 80px;
 }
-.footer p{
-    font-weight: 600;
-}
 .footer span{
-    border: 1px solid black;
-    font-weight: bold;
+    border: 1px solid rgb(95, 86, 86);
     height:17px;
     margin-top: 4px;
 }
 .footer ul{
     display: flex;
     list-style: none;
-    font-weight: bold;
 }
 .footer li{
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .footer a{
     text-decoration: none;
@@ -31,40 +26,70 @@
     text-decoration: underline;
     opacity: 0.8;
 }
+@media (max-width: 1050px){
+    .footer li{
+        font-size: 0.9rem;
+     }
+     .footer span{
+         height:13px;
+     }
+     .footer p{
+         font-size: 0.9rem;
+     }
+}
 @media (max-width: 990px){
     .footer li{
-       font-size: 0.75rem;
+       font-size: 0.8rem;
     }
     .footer span{
         height:12px;
-        margin-top: 4px;
-    }
-    .footer p{
-        font-size: 1rem;
-    }
-}
-@media (max-width: 859px){
-    .footer li{
-       font-size: 0.7rem;
-    }
-    .footer span{
-        height:10px;
-        margin-top: 4px;
     }
     .footer p{
         font-size: 0.8rem;
     }
 }
-@media (max-width: 765px){
+@media (max-width: 859px){
+    .footer li{
+       font-size: 0.75rem;
+    }
+    .footer span{
+        height:10px;
+    }
+    .footer p{
+        font-size: 0.75rem;
+    }
+}
+@media (max-width: 800px){
+    .footer li{
+       font-size: 0.7rem;
+    }
+    .footer span{
+        height:9px;
+    }
+    .footer p{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 760px){
+    .footer li{
+       font-size: 0.65rem;
+    }
+    .footer span{
+        height:8px;
+    }
+    .footer p{
+        font-size: 0.65rem;
+    }
+}
+@media (max-width: 720px){
     .footer li{
        font-size: 0.6rem;
     }
     .footer span{
-        height:8px;
-        margin-top: 4px;
+        height:7px;
     }
     .footer p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }
 @media (max-width: 681px){
@@ -79,13 +104,14 @@
        padding-inline-start: 0px;
     }
     .footer li{
-       margin-bottom: 5px;
+       margin-bottom: 25px;
        font-size: 0.8rem;
         padding-right:0;
         padding-left: 0;
     }
     .footer p{
         font-size: 1rem;
+        margin-bottom: 30px;
     }
     .footer span{
       display: none;

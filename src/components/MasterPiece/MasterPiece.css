@@ -123,22 +123,56 @@
   .masterpiece{
     margin-top: 200px;
 }
+.first-col{
+  display: none;
+  opacity: 0;
+ }
+ .second-col{
+   display: none;
+   opacity: 0;
+ 
 }
+.masterpiece-bx {
+  padding: 35px 45px;
+   width: 70vw;
+ }
+ .masterpiece-bx h3 {
+   font-size: 1.3rem;
+   text-align: center;
+ }
+ .masterpiece-bx p {
+   font-size: 1.1rem;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+ }
+ .new-text-bx {
+   padding: 2.2px;
+ }
+ .new-text-bx input::placeholder{
+   padding-left: 1px;
+   font-size: 1.1rem;
+ }
+ .new-text-bx button {
+   padding: 7px 25px;
+   font-size: 1.1rem;
+ }
+ .masterpiece-btns{ 
+   padding: .7rem 1.2rem;
+}
+}
+
+
 @media (max-width:627px){
   .masterpiece-bx {
    padding: 30px 40px;
     width: 75vw;
-    margin: auto;
   }
   .masterpiece-bx h3 {
     font-size: 1.2rem;
-    text-align: center;
   }
   .masterpiece-bx p {
     font-size: 1rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
   }
   .new-text-bx {
     padding: 2px;

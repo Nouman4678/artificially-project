@@ -5,7 +5,7 @@ export default function Footer() {
     <div className='footer'>
   <p>	&#169; 2023 Artificially. All rights reserved</p>
   <ul>
-    <a href='/' target="_blank"><li>Privact Policy</li></a>
+    <a href='/' target="_blank"><li>Privacy Policy</li></a>
     <span></span>
     <a href='/' target="_blank"><li>Terms of Service</li></a>
     <span></span>
